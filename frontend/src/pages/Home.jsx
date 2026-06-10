@@ -10,6 +10,7 @@ import Testimonials from "../components/home/Testimonials";
 import CTA from "../components/home/CTA";
 import Footer from "../components/layout/Footer";
 import ChatWidget from "../components/common/ChatWidget";
+import GlobalPresence from "../components/home/GlobalPresence";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <Hero/>
       <TrustedBy />
       <Stats />
+      <GlobalPresence />
       <Services />
       <Platforms />
       <Workflow />
